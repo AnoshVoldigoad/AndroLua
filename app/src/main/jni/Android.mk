@@ -1,3 +1,5 @@
-APP_ABI = armeabi-v7a
-include $(call all-subdir-makefiles)
+APP_ABI := arm64-v8a
+APP_PLATFORM := android-21
+NDK_TOOLCHAIN_VERSION := clang
 
+include $(call all-subdir-makefiles)
